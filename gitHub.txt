@@ -1,0 +1,30 @@
+
+
+Creating a new repository on the command line 
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Robert-Best-2116/<<New Repo Name>>.git
+git push -u origin main
+
+
+Push an existing repository from the command line 
+
+git remote add origin https://github.com/Robert-Best-2116/<<New Repo Name>>.git
+git branch -M main
+git push -u origin main
+
+
+Pull from the repo to update code 
+
+git request-pull [-p] <start> <URL> [<end>]
+
+
+Updating code to an already existing repo. 
+
+git add * 
+git status 
+git commit -m "<<new notes>> "
+git push
