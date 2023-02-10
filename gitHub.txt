@@ -3,23 +3,26 @@
 Creating a new repository on the command line 
 
 git init
-git add README.md
+git add README.md-Optional
+git add *
+git status
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Robert-Best-2116/<<New Repo Name>>.git
 git push -u origin main
+git status
 
 
-Push an existing repository from the command line 
+Push an existing repository from the command line - need to actually try this. 
 
 git remote add origin https://github.com/Robert-Best-2116/<<New Repo Name>>.git
 git branch -M main
 git push -u origin main
 
 
-Pull from the repo to update code 
+Pull from the repo to update code from my own repo 
 
-git request-pull [-p] <start> <URL> [<end>]
+git pull https://github.com/Robert-Best-2116/<<Repo Name>>.git
 
 
 Updating code to an already existing repo. 
