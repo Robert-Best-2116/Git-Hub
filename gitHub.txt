@@ -13,12 +13,6 @@ git push -u origin main
 git status
 
 
-Push an existing repository from the command line - need to actually try this. 
-
-git remote add origin https://github.com/Robert-Best-2116/<<New Repo Name>>.git
-git branch -M main
-git push -u origin main
-
 
 Pull from the repo to update code from my own repo 
 
@@ -31,3 +25,13 @@ git add *
 git status 
 git commit -m "<<new notes>> "
 git push
+
+React File-Remove Node Modules Before Push
+
+    ls
+    rm -rf node_modules
+
+
+    npm i to reinstall them. 
+
+
